@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fffcf9;
+}
+
+html,
+body {
+    overflow: auto;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.435);
+    border-radius: 20px;
+}
+
+body {
+    position: relative;
+    background: linear-gradient(45deg, #102d71 0%, #000000 52%, #c12a23 100%) no-repeat;
+}
+
+main {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    left: 0;
+
+    header {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 126px auto 30px auto;
+        .logo {
+            margin: 0 auto;
+            width: 87.24px;
+            height: 62.93px;
+        }
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+
+    section {
+        display: flex;
+        max-width: 592px;
+        margin: 0 auto;
+        align-items: center;
+        gap: 34px;
+
+        img {
+            width: 171px;
+            height: 243.77px;
+        }
+
+        h2 {
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 19px;
+        }
+
+        p {
+            max-width: 423px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+
+            img {
+                width: 20px;
+                height: 15px;
+            }
+        }
+
+        .description {
+            height: 250px;
+            overflow: auto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .scrooll-style::-webkit-scrollbar {
+            width: 12px;
+            border-radius: 10px;
+            scrollbar-width: 5px;
+            background-color: #aaa;
+        }
+
+        .scrooll-style::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.435);
+            border-radius: 20px;
+        }
+
+        p.scrooll-style {
+            background-color: #00000084;
+            opacity: 0.8;
+            border-radius: 10px;
+        }
+    }
+
+    .div-button {
+        position: relative;
+        height: 150px;
+
+        button {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 180.98px;
+            height: 47px;
+            margin: 30px auto auto;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 17px;
+            border-radius: 5px;
+            border: none;
+            font-size: 12px;
+            font-weight: 700;
+
+            img {
+                width: 35.56px;
+                height: 25px;
+            }
+        }
+
+        p {
+            position: absolute;
+            max-width: 381px;
+            margin: 0 auto 10px;
+            right: 0;
+            left: 0;
+            bottom: 1px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        header {
+            text-align: center;
+            width: 359px;
+            height: 193px;
+            margin-top: 50px;
+        }
+
+        .telaErro {
+            height: 329px;
+        }
+
+        section {
+            display: grid;
+            justify-items: center;
+            width: 316px;
+            height: 662.62px;
+
+            h2 {
+                text-align: center;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+}
