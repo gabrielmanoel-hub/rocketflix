@@ -10,7 +10,6 @@ const Main = () => {
     const [num] = useState({
         id: Math.floor(Math.random() * 2880),
     });
-    console.log(data)
     const [err, setErr] = useState();
     const IMG = `${IMG_URL}${data.poster_path}`;
     
