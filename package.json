@@ -5,11 +5,14 @@
   "dependencies": {
     "axios": "^0.26.1",
     "cra-template": "1.1.3",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
