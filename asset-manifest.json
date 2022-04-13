@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f595b13.css",
+    "main.js": "/static/js/main.ed152b60.js",
+    "static/media/Screenshot.png": "/static/media/Screenshot.c34642665e462cbce264.png",
+    "static/media/foguete.png": "/static/media/foguete.b3698f324954ba462a00.png",
+    "static/media/favicon.ico": "/static/media/favicon.c4df3cf6c390c753be26.ico",
+    "static/media/android-chrome-192x192.png": "/static/media/android-chrome-192x192.76db9c1057b8c0d51979.png",
+    "index.html": "/index.html",
+    "main.3f595b13.css.map": "/static/css/main.3f595b13.css.map",
+    "main.ed152b60.js.map": "/static/js/main.ed152b60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f595b13.css",
+    "static/js/main.ed152b60.js"
+  ]
+}
